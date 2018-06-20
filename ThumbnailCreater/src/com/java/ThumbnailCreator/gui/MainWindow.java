@@ -87,13 +87,7 @@ public class MainWindow extends JFrame {
 
 		panel.add(buttonPanel);
 
-		/*
-		 * Button Listener's
-		 */
 
-		/*
-		 * Adds files to the class variable fileList and updates the fileBox.
-		 */
 		addFilesButton.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent event) {
@@ -121,9 +115,7 @@ public class MainWindow extends JFrame {
 			}
 		});
 
-		/*
-		 * Creates the new thumbnails in the folder where the original image is located.
-		 */
+	
 		convertButton.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent event) {
@@ -133,8 +125,7 @@ public class MainWindow extends JFrame {
 				} else if (fileList.isEmpty()) {
 					JOptionPane.showMessageDialog(null, "Add some images to convert.");
 				} else {
-					// TODO make into a thread by calling hello thread and putting anything below
-					// here into the hello thread
+				
 					int width = Integer.parseInt(widthBox.getText());
 					int height = Integer.parseInt(heightBox.getText());
 					String fileType = fileTypeBox.getText();
@@ -147,9 +138,7 @@ public class MainWindow extends JFrame {
 			}
 		});
 
-		/*
-		 * Clear the file box of any listed files.
-		 */
+	
 		clearListButton.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent event) {
