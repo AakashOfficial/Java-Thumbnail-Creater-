@@ -2,4 +2,4 @@
 
 Thumbnail Generator. Written In Java
 
-Under Developing !
+Project Completed !
