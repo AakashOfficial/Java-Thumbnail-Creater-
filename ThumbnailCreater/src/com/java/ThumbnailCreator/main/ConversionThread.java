@@ -1,4 +1,4 @@
-package com.java.ThumbnailCreator.main;
+ackage com.java.ThumbnailCreator.main;
 
 import javax.swing.JOptionPane;
 
