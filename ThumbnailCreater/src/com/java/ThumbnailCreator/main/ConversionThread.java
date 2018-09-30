@@ -1,10 +1,8 @@
-ackage com.java.ThumbnailCreator.main;
+package com.java.ThumbnailCreator.main;
 
 import javax.swing.JOptionPane;
 
 import com.java.ThumbnailCreater.classes.ImageConverter;
-
-
 
 public class ConversionThread extends Thread {
 
