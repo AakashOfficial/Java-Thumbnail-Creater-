@@ -22,4 +22,4 @@ public class ConversionThread extends Thread {
 			return;
 		}
 	}
-ĺ
+}
